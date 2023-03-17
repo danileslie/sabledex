@@ -1,8 +1,106 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     display: flex;
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 5px;
+    background: rgb(182, 182, 219);
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#pokemonImage {
+    width: 30%;
+}
+
+#types {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+}
+
+#types * {
+    padding: 0.5%;
+    border-radius: 5px;
+    color: white;
+}
+
+/* TYPES */
+
+.normal {
+    background: #a8a878;
+}
+
+.fighting {
+    background: #c03028;
+}
+
+.flying {
+    background: #a890f0;
+}
+
+.poison{
+    background: #a040a0;
+}
+
+.ground{
+    background: #e0c068;
+}
+
+.ground{
+    background: #b8a038;
+}
+
+.bug{
+    background: #a8b820;
+}
+
+.ghost{
+    background: #705898;
+}
+
+.steel{
+    background: #b8b8d0;
+}
+
+.fire{
+    background: #f08030;
+}
+
+.water{
+    background: #6890f0;
+}
+
+.grass{
+    background: #78c850;
+}
+
+.electric{
+    background: #f8d030;
+}
+
+.psychic{
+    background: #f85888;
+}
+
+.ice{
+    background: #98d8d8;
+}
+
+.dragon{
+    background: #7038f8;
+}
+
+.dark{
+    background: #705848;
+}
+
+.fairy{
+    background: #ee99ac;
 }
